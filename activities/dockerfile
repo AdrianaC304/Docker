@@ -1,12 +1,13 @@
+# Estar en el repositorio qu tienes el archivo --> cd activities 
+# docker build .
+
 FROM ubuntu:18.04 
 
-RUN pat-get update
+RUN apt-get update
 #RUN echo "hello1"
-
 RUN apt-get install -y nginx
 # run echo "hello2"
-
-
 EXPOSE 80
 ENTRYPOINT /usr/sbin/nginx -g "daemon off;" 
 
+# docker images
