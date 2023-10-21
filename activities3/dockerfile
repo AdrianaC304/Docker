@@ -5,7 +5,8 @@ RUN apt-get install -y git
 
 #
 CMD git --version
+
 # ejeuctar 
-#docker build -t gitfile
+#docker build -it gitfile
 #entrar dentro
 #docker run -it gitfile bash
