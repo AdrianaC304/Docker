@@ -17,3 +17,8 @@ ENTRYPOINT /usr/sbin/nginx -g "daemon off;"
 #docker build -t myimage .
 # cambiar la version  docker tag e62851ae9148 myimage:latest 
 
+#EJECUTAR
+#docker run -d myimage
+#docker ps
+#PARAR
+#docker stop myimage  
