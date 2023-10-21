@@ -1,10 +1,3 @@
-#EJERCICIO FINAL
-
-# 1. Cogemos una imagen con python
-# 2. Hacemos un entregable con python
-# 3. Hacer ENTRYPOINT
-
-
 FROM debian:wheezy
 #TEORIA
 #depende el uso que le quieras dar usas CMD o ENTRPOINT

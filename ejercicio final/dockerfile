@@ -1,0 +1,11 @@
+#EJERCICIO FINAL
+
+# 1. Cogemos una imagen con python
+# 2. Hacemos un entregable con python
+# 3. sHacer ENTRYPOINT
+
+FROM python
+
+COPY mypi.py / 
+
+ENTRYPOINT python mypi.py
