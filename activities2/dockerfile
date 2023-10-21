@@ -5,3 +5,4 @@ FROM debian:wheezy
 ENTRYPOINT [ "/in/ping" ]
 #si no podemos nada
 CMD ["localhost"]
+
