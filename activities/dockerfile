@@ -10,7 +10,10 @@ RUN apt-get install -y nginx
 EXPOSE 80
 ENTRYPOINT /usr/sbin/nginx -g "daemon off;" 
 
-# docker images
 
+
+# docker images
 #ponerle nombre a la imagen
 #docker build -t myimage .
+# cambiar la version  docker tag e62851ae9148 myimage:latest 
+
