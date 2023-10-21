@@ -1,0 +1,6 @@
+FROM debian:wheezy
+
+#TEORIA
+#depende el uso que le quieras dar usas CMD o ENTRPOINT
+ENTRYPOINT [ "/in/ping" ]
+CMD ["localhost"]
