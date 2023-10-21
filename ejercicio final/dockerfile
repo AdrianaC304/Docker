@@ -6,9 +6,9 @@
 
 FROM python
 
-COPY mypi.py / 
+COPY script.py / 
 
-ENTRYPOINT python mypi.py
+ENTRYPOINT python script.py
 
 # docker run imagenpython 1 2
 
