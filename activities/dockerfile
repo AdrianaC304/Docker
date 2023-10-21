@@ -11,3 +11,6 @@ EXPOSE 80
 ENTRYPOINT /usr/sbin/nginx -g "daemon off;" 
 
 # docker images
+
+#ponerle nombre a la imagen
+#docker build -t myimage .
