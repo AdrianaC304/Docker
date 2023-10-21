@@ -1,0 +1,11 @@
+FROM ubuntu:18.04 
+
+RUN pat-get update
+#RUN echo "hello1"
+
+RUN apt-get install -y nginx
+# run echo "hello2"
+
+
+EXPOSE 80
+ENTRYPOINT /usr/sbinnginx -g "daemon off;"
