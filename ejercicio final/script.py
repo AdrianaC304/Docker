@@ -1,3 +1,4 @@
 import sys
-print (len (sys.arg))
-print (sys.arg)
+print (len (sys.argv))
+print (sys.argv)
+
