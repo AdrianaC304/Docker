@@ -3,7 +3,7 @@ FROM python
 
 COPY script.py / 
 
-ENTRYPOINT python script.py
+ENTRYPOINT ["python" , "script.py"]
 
 #EJERCICIO FINAL
 # 1. Cogemos una imagen con python
