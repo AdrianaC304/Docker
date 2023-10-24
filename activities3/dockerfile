@@ -3,7 +3,8 @@ FROM ubuntu:20.04
 RUN apt-get update
 RUN apt-get install -y git
 
-#
+# Define el comando a ejecutar cuando el contenedor se inicia
+
 CMD git --version
 
 # ejeuctar 
