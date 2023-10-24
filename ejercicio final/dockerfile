@@ -7,7 +7,7 @@ ENTRYPOINT python script.py
 
 #EJERCICIO FINAL
 # 1. Cogemos una imagen con python
-# 2. Hacemos un entregable con python
+# 2. Hacemos un entregable con python   
 # 3. Hacer ENTRYPOINT
 
 # docker build -it imagenpython
@@ -23,3 +23,6 @@ ENTRYPOINT python script.py
 
 #Cuando se ejecute el contendor docker, este debe invocar al script pasando como parámetro ambos números.
 ## aejecutar el contendor y que ejecure el script
+
+###############
+
