@@ -8,8 +8,7 @@ ENTRYPOINT python script.py
 #EJERCICIO FINAL
 # 1. Cogemos una imagen con python
 # 2. Hacemos un entregable con python
-# 3. sHacer ENTRYPOINT
-
+# 3. Hacer ENTRYPOINT
 
 # docker build -it imagenpython
 # docker run imagenpython 1 2
